@@ -6,12 +6,14 @@ public class PartyPeople
 	{
 	
 	String companies[] = {"Wal-Mart", "Kroger", "Amazon", "Lowes", "Best Western", "KMart", "Fusian", "Heinz", "Gucci","Prada", "Nike", "Dodge", "Maserati", "Razor", "AMD", "Razer"};
+	int tables[] = {1,2,3,4,5,6,7,8,9,10};
 }
 	public PartyPeople(int initId, String initName, String initCompany){
 	
 		id = initId;
 		name = initName;
 		company = initCompany;
+		table = intiTable;
 		
 }
 	public String getName(){
@@ -27,7 +29,7 @@ public class PartyPeople
 	}
 	
 	public String toString(){
-		return ("name" + "company");
+		return ("name" + "company" + "id");
 		
 	}
-}		
+}
